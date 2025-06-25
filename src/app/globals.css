@@ -1,26 +1,22 @@
 @import "tailwindcss";
+/* Aquí puedes importar tu fuente si no lo hiciste con @font-face */
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-neon: #12F7D6;
+  --color-fcontac: #292F36;
+  --font-display: "Ubuntu", "sans-serif";
+  --background-works: url(public/Works.png);
+  --background-compus: url(https://www.figma.com/design/A7tYMJWLRSVrf5WQkI47re/Web-Developer-Portfolio-Website-Template--Community-?node-id=534-2158&t=hnlK2dqFehzdWCAM-4)
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html {
+  scroll-behavior: smooth;
+}  
+
+label{
+  color: #12F7D6;
+  padding-left: 5%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* Dual-screen */
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}

@@ -1,0 +1,11 @@
+✅ Secciones completadas: Hero, About, Skills, Projects
+✅ Tailwind funcionando correctamente
+✅ Layout estructurado con App Router
+🛠 Pendiente: Navbar sticky, formulario de contacto, animaciones
+
+fortelzas: mi mayor fortaleza se basa en el aprendizaje y me encanta afrontar temas nuevos realcionados con la 
+profesion cada vez que enfrento un nuevo desafio lucho por completarlo la evidencia mas prometedora es 
+culminar los estudios de henry.
+
+la responsabilidad: es un punto clave en mi me a ayudado cumplir mis metas culminar los proyectos.
+
