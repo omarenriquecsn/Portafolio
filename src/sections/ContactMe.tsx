@@ -64,7 +64,7 @@ export default function ContactForm() {
             type="text"
             {...register("name", { required: "Su Nombre es requerido" })}
             placeholder="Nombre"
-            className="w-full border-b-2 border-neon px-4 py-2 focus:outline-none focus:ring-0"
+            className="placeholder-white placeholder:opacity-50 w-full border-b-2 border-neon px-4 py-2 focus:outline-none focus:ring-0"
           />
           {typeof errors.name?.message === "string" && (
             <span className="text-red-500 text-sm">{errors.name.message}</span>
@@ -78,7 +78,7 @@ export default function ContactForm() {
             type="email"
             {...register("email", { required: "Su Nombre es requerido" })}
             placeholder="Email"
-            className="w-full border-b-2 border-neon px-4 py-2 focus:outline-none focus:ring-0"
+            className="placeholder-white placeholder:opacity-50 w-full border-b-2 border-neon px-4 py-2 focus:outline-none focus:ring-0"
             />
           {typeof errors.email?.message === "string" && (
             <span className="text-red-500 text-sm">{errors.email.message}</span>
@@ -92,7 +92,7 @@ export default function ContactForm() {
         <textarea
           {...register("message", { required: "No olvide el mensaje" })}
           placeholder="Mensaje"
-          className="w-full border-b-2 border-neon px-4 py-2 resize-none focus:outline-none focus:ring-0"
+          className="text-white placeholder-white placeholder:opacity-50 w-full border-b-2 border-neon px-4 py-2 resize-none focus:outline-none focus:ring-0"
           />
         {typeof errors.message?.message === "string" && (
           <span className="text-red-500 text-sm">{errors.message.message}</span>
