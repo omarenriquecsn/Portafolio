@@ -19,7 +19,7 @@ export default function Navbar() {
           className="hover:text-blue-500 transition-colors duration-300"
         >Proyectos</Link>
         <Link
-          href="#AboutSection"
+          href="#contact"
           scroll={true}
           className="hover:text-blue-500 transition-colors duration-300"
         >Contactame</Link>

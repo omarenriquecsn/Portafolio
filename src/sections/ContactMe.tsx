@@ -32,7 +32,7 @@ export default function ContactForm() {
     }
   };
   return (
-    <form ref={formRef} onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+    <form id="contact" ref={formRef} onSubmit={handleSubmit(onSubmit)} className="space-y-4">
       <div className="bg-[#292F36]">
 
       <div className="flex flex-col colim items-center justify-center  text-center h-90">
@@ -50,7 +50,7 @@ export default function ContactForm() {
       <div>
         <h3
           style={{ color: "#12F7D6" }}
-          className="pt-3 pb-3 rounded-tl-full rounded-br-full mx-auto flex flex-col items-center mt-20 border-3 w-100 text-3xl mb-10 "
+          className="pt-3 pb-3 rounded-tl-4xl rounded-br-4xl mx-auto flex flex-col items-center mt-20 border-3 w-100 text-3xl mb-10 "
           >
           Enviame un Mensaje
         </h3>

@@ -1,6 +1,7 @@
 @import "tailwindcss";
 /* Aquí puedes importar tu fuente si no lo hiciste con @font-face */
 
+
 @theme {
   --color-neon: #12f7d6;
   --color-fcontac: #292f36;
@@ -8,6 +9,7 @@
   --background-works: url(public/Works.png);
   --background-compus: url(https://www.figma.com/design/A7tYMJWLRSVrf5WQkI47re/Web-Developer-Portfolio-Website-Template--Community-?node-id=534-2158&t=hnlK2dqFehzdWCAM-4);
   --background-skills: url(public/Skills.png);
+  --background-about: url(public/About.png);
 }
 
 html {
