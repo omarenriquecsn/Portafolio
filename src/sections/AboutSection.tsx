@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import {ibmPlexMono} from "../lib/fonts"
 
@@ -5,9 +6,9 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="py-20 px-6 md:px-16 bg-[image:var(--background-about)] bg-cover dark:bg-zinc-900 "
+      className="min-h-screen py-20 px-6 md:px-16 bg-[image:var(--background-about)] bg-cover dark:bg-zinc-900 "
     >
-      <div className="flex flex-col colim items-center justify-center  text-center h-90">
+      <div className="flex flex-col items-center justify-center  text-center h-90">
         <svg className="flex-col gap-1 w-9 mb-5 mx-auto m-0  mt-20">
           <use href="/sprite.svg#mouse" />
         </svg>

@@ -24,7 +24,7 @@ export default function SkillsSection() {
   return (
     <section
       id="skills"
-      className="py-20 px-6 md:px-16 bg-[image:var(--background-skills)] dark:bg-zinc-800"
+      className="py-20 px-6 md:px-16 min-h-screen bg-[image:var(--background-skills)] dark:bg-zinc-800"
     >
       <div className="flex flex-col colim items-center justify-center  text-center h-90">
         <svg className="flex-col gap-1 w-9 mb-5 mx-auto m-0  mt-20">
