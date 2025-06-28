@@ -30,9 +30,9 @@ export default function SkillsSection() {
         <svg className="flex-col gap-1 w-9 mb-5 mx-auto m-0  mt-20">
           <use href="/sprite.svg#mouse" />
         </svg>
-        <h2 style={{ color: "#12F7D6" }} className="w-228 text-5xl ">
-          Habilidades Tecnicas
-        </h2>
+        <h2 className="text-neon text-3xl sm:text-4xl md:text-5xl lg:text-[3rem] font-extrabold text-center mb-8">
+  Habilidades Técnicas
+</h2>
         <svg className="pt-4 h-10 w-60">
           <use href="/sprite.svg#linehorizontal" />
         </svg>

@@ -6,16 +6,16 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section id="hero" className="min-h-screen w-full h-190 bg-[#43454D] pt-30">
+    <section id="hero" className="min-h-screen w-full bg-[#43454D] pt-24 md:pt-32 pb-12">
       <div className="max-w-500 h-full flex flex-col mx-auto py-20 px-6 md:px-16">
         <div className="w-full flex justify-center">
           <h1 className="text-4xl md:text-6xl dark:text-white mb-10 text-[#98FAEC]">
             Desarrollador
           </h1>
         </div>
-        <div className="flex max-w-6xl mx-auto gap-10 p-15">
+        <div className="flex flex-col lg:flex-row gap-10 p-6 md:p-10 max-w-6xl mx-auto items-center">
           <div
-            className={`${ibmPlexMono.className} w-70 h-110 rounded-tl-[120px] rounded-br-[120px] border-white border-3`}
+            className={`${ibmPlexMono.className} w-full max-w-xs sm:max-w-sm lg:max-w-[280px] h-auto rounded-tl-[120px] rounded-br-[120px] border-white border-3 p-4`}
           >
             <div className="w-full flex justify-center mt-5 ">
               <Image
@@ -66,7 +66,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="max-w-100 my-auto text-white">
+          <div className="w-full flex-1 text-white lg:text-left px-2 sm:px-6">
             <span className="text-neon text-[60%]">{`<h1>`}</span>
             <h2 className="ml-4 text-[180%]">Hola</h2>
             <h2 className="ml-4 text-[180%]">
@@ -76,7 +76,7 @@ export default function Hero() {
             <span className="text-neon text-[60%]">{`</h1>`}</span>
             <p></p>
             <span className="text-neon text-[60%]">{`<p>`}</span>
-            <p className={`${ibmPlexMono.className} ml-4`}>
+            <p className={`${ibmPlexMono.className} ml-4 text-sm sm:text-base leading-relaxed`}>
               Creando experiencias funcionales y elegantes para empresas y
               profesionales
             </p>
@@ -88,7 +88,7 @@ export default function Hero() {
               Conectemos <SiGmail />
             </Link>
           </div>
-          <div className="flex items-center w-50 rounded-full h-3/4 my-auto p-7 bg-[#1A1E23] text-white">
+          <div className="flex items-center w-50 rounded-full h-90 my-auto p-7 bg-[#1A1E23] text-white">
             <ul className="flex flex-col gap-4">
               <li className="flex items-center gap-2">
                 <h2 className="text-neon text-[210%]">2</h2>
