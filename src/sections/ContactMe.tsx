@@ -36,14 +36,14 @@ export default function ContactForm() {
       <form
         ref={formRef}
         onSubmit={handleSubmit(onSubmit)}
-        className="space-y-4 bg-[#292F36] pb-30"
+        className="space-y-6 bg-[#292F36] pb-20 px-4 transition-all duration-500 ease-in-out"
       >
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col items-center justify-center  text-center h-90 ">
             <svg className="flex-col gap-1 w-9 mb-5 mx-auto m-0  mt-20">
               <use href="/sprite.svg#mouse" />
             </svg>
-            <h2 style={{ color: "#12F7D6" }} className="w-228 text-5xl">
+            <h2 className="w-228 text-3xl sm:text-4xl md:text-4xl lg:text-5xl text-neon ">
               Contacto
             </h2>
             <svg className="pt-4 h-10 w-60 ">
@@ -51,19 +51,14 @@ export default function ContactForm() {
             </svg>
           </div>
 
-          <div>
-            <h3
-              style={{ color: "#12F7D6" }}
-              className="pt-3 pb-3 rounded-tl-4xl rounded-br-4xl mx-auto flex flex-col items-center mt-20 border-3 w-100 text-3xl mb-10 "
-            >
-              Enviame un Mensaje
+          <div className="flex justify-center px-4">
+            <h3 className="text-neon text-center px-6 py-3 text-2xl sm:text-3xl md:text-4xl font-bold rounded-tl-4xl rounded-br-4xl border-neon border-[3px] mx-auto mb-10 max-w-md sm:max-w-lg md:max-w-xl">
+              Envíame un Mensaje
             </h3>
           </div>
-          <div className="mx-auto flex justify-center gap-20 w-3/4">
-            <div className="w-1/2">
-              <label className="" htmlFor="Nombre">
-                Como te llamas
-              </label>
+          <div className="mx-auto w-full max-w-3xl flex flex-col sm:flex-row gap-8 sm:gap-10 px-4">
+            <div className="w-full sm:w-1/2">
+              <label htmlFor="Nombre">Como te llamas</label>
               <input
                 type="text"
                 {...register("name", { required: "Su Nombre es requerido" })}
@@ -76,7 +71,7 @@ export default function ContactForm() {
                 </span>
               )}
             </div>
-            <div className="w-1/2">
+            <div className="w-full sm:w-1/2">
               <label className="text-neon" htmlFor="email">
                 Correo para contactar
               </label>
@@ -93,7 +88,7 @@ export default function ContactForm() {
               )}
             </div>
           </div>
-          <div className="mx-auto mt-10 w-3/4">
+          <div className="mx-auto mt-10 w-full max-w-3xl px-4">
             <label className="pl-0" htmlFor="message">
               Mensaje
             </label>

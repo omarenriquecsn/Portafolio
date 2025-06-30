@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Image from "next/image";
 
 interface ProjetCardProps {
@@ -19,8 +19,8 @@ export default function ProjectCard({
   image,
 }: ProjetCardProps) {
   return (
-    <div className="inline-block snap-center overflow-hidden w-5/6 p-15 gap-15 mx-auto">
-      <div className="h-90 w-3/4 flex items-center relative mx-auto">
+    <div className="w-full max-w-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative w-full aspect-video max-w-[768px] mx-auto">
         <a
           className="absolute w-[47%] top-[30%] left-[46%] z-10 h-[41%]"
           href={demoUrl}
@@ -34,7 +34,7 @@ export default function ProjectCard({
           />
         </a>
 
-        <Image src="/Dual-screen.png" alt="compus" fill />
+        <Image src="/Dual-screen.png" alt="compus" fill className="z-0" />
         <a
           className="absolute left-[8%] top-[14%] z-10 h-[63%] w-[33%]"
           href={codeUrl}
@@ -43,16 +43,18 @@ export default function ProjectCard({
 
         <a
           href={codeUrl}
-          className=" text-center rotate-[-40deg] absolute z-10 text-[130%] top-[10%] text-neon bg-gray-800 rounded w-[20%]"
+          className="absolute top-[10%] left-[5%] sm:left-[8%] z-10 text-xs sm:text-sm md:text-base text-neon bg-gray-800 rounded px-2 py-1 rotate-[-12deg]"
           target="_blank"
         >
-          <span className="">{`<Código/>`}</span>
+          <span>{`<Código/>`}</span>
         </a>
 
-        <a href={demoUrl} target="_blank">
-          <span className="absolute underline decoration-1 decoration-white underline-offset-[10px] text-[108%] top-[13%] right-[25%] text-neon ">
-            Visita la web
-          </span>
+        <a
+          href={demoUrl}
+          target="_blank"
+          className="absolute top-[13%] right-[10%] sm:right-[25%] z-10 underline decoration-white text-xs sm:text-sm md:text-base text-neon"
+        >
+          Visita la web
         </a>
       </div>
     </div>
