@@ -37,7 +37,7 @@ export default function AboutSection() {
         </div>
         <div>
           <Image
-            src="/image.png"
+            src="/Lapto.png"
             width={400}
             height={600}
             alt="decorador"
