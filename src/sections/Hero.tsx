@@ -9,7 +9,7 @@ export default function Hero() {
     <section id="hero" className="min-h-screen w-full bg-[#43454D] pt-24 md:pt-32 pb-12">
       <div className="max-w-500 h-full flex flex-col mx-auto py-20 px-6 md:px-16">
         <div className="w-full flex justify-center">
-          <h1 className="text-4xl md:text-6xl dark:text-white mb-10 text-neon">
+          <h1 className="text-4xl md:text-6xl mb-10 text-neon">
             Desarrollador
           </h1>
         </div>
@@ -54,7 +54,7 @@ export default function Hero() {
               <a
                 href="/omar-contreras-cv.docx"
                 download
-                className="flex gap-1 p-3 w-40 rounded-3xl bg-white mt-10 mx-auto"
+                className="flex gap-1 p-3 w-40 rounded-3xl bg-white mt-10 text-black mx-auto"
               >
                 Download CV
                 {
