@@ -54,7 +54,7 @@ export default function ProjectCard({
           target="_blank"
           className="absolute top-[13%] right-[10%] sm:right-[25%] z-10 underline decoration-white text-xs sm:text-sm md:text-base text-neon"
         >
-          Visita la web
+           Visita el sitio web
         </a>
       </div>
     </div>

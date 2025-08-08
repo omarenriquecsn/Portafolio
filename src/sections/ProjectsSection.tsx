@@ -34,7 +34,7 @@ export default function ProjectsSection() {
             <use href="/sprite.svg#mouse" />
           </svg>
           <h2 className="w-228 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-neon">
-            Proyectos Destacados
+            Proyectos destacados
           </h2>
           <svg className="pt-4 h-10 w-60">
             <use href="/sprite.svg#linehorizontal" />

@@ -58,7 +58,7 @@ export default function ContactForm() {
           </div>
           <div className="mx-auto w-full max-w-3xl flex flex-col sm:flex-row gap-8 sm:gap-10 px-4">
             <div className="w-full sm:w-1/2">
-              <label htmlFor="Nombre">Como te llamas</label>
+              <label htmlFor="Nombre">Cómo te llamas</label>
               <input
                 type="text"
                 {...register("name", { required: "Su Nombre es requerido" })}
@@ -73,11 +73,11 @@ export default function ContactForm() {
             </div>
             <div className="w-full sm:w-1/2">
               <label className="text-neon" htmlFor="email">
-                Correo para contactar
+                Correo para contactarte
               </label>
               <input
                 type="email"
-                {...register("email", { required: "Su Nombre es requerido" })}
+                {...register("email", { required: "Su Correo es requerido" })}
                 placeholder="Email"
                 className="placeholder-white placeholder:opacity-50 text-white w-full border-b-2 border-neon px-4 py-2 focus:outline-none focus:ring-0"
               />

@@ -17,7 +17,7 @@ export default function AboutSection() {
         <div className="w-full lg:max-w-2xl flex flex-col justify-center items-start lg:mr-20">
           <div className="">
             <h3 className=" bg-[#292F36] text-white border-neon pt-3 pb-3 rounded-tl-4xl rounded-br-4xl mx-auto flex flex-col items-center border-3 w-50 text-3xl mb-10 ">
-              Sobre Mi
+              Sobre Mí
             </h3>
           </div>
           <div
@@ -29,8 +29,8 @@ export default function AboutSection() {
               Soy Omar Contreras, desarrollador full-stack con pasión por
               resolver desafíos técnicos y crear experiencias digitales fluidas.
               Me especializo en integrar frontend y backend con tecnologías
-              modernas como Next.js, NestJS, y PostgreSQL. También me interesa
-              la integración de hardware automotrizy la escritura creativa,
+              modernas como Next.js, NestJS y PostgreSQL. También me interesa la
+              integración de hardware automotriz y la escritura creativa.
             </p>
             <span className="text-neon">{`</p>`}</span>
           </div>

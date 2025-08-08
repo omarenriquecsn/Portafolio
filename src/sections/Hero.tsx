@@ -6,7 +6,10 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section id="hero" className="min-h-screen w-full bg-[#43454D] pt-24 md:pt-32 pb-12">
+    <section
+      id="hero"
+      className="min-h-screen w-full bg-[#43454D] pt-24 md:pt-32 pb-12"
+    >
       <div className="max-w-500 h-full flex flex-col mx-auto py-20 px-6 md:px-16">
         <div className="w-full flex justify-center">
           <h1 className="text-4xl md:text-6xl mb-10 text-neon">
@@ -28,7 +31,7 @@ export default function Hero() {
             </div>
             <h3 className="mt-2 text-center text-white">Omar Contreras</h3>
             <p className="text-[65%] text-center text-white">
-              Desarrolador Full-Stack{" "}
+              Desarrollador Full-Stack{" "}
             </p>
             <ul className="mt-4  text-white leading-7">
               <li className="flex gap-4 justify-start items-center ml-2">
@@ -37,11 +40,11 @@ export default function Hero() {
               </li>
               <li className="flex gap-4 justify-start ml-2 items-center">
                 <SiGooglemaps className="text-neon" />{" "}
-                <p className="text-[65%]">Venezuela Carabob/Valencia</p>
+                <p className="text-[65%]">Venezuela Carabobo/Valencia</p>
               </li>
               <li className="flex gap-4 justify-start ml-2 items-center">
                 <MdWork className="text-neon" />{" "}
-                <p className="text-[65%]">Disponible Fulltime</p>
+                <p className="text-[65%]">Disponible tiempo completo</p>
               </li>
             </ul>
             <div className="flex gap-2 justify-center mt-2">
@@ -56,7 +59,7 @@ export default function Hero() {
                 download
                 className="flex gap-1 p-3 w-40 rounded-3xl bg-white mt-10 text-black mx-auto"
               >
-                Download CV
+                Descargar CV
                 {
                   <svg className="w-6 h-6">
                     <use href="sprite.svg#download" />
@@ -76,9 +79,11 @@ export default function Hero() {
             <span className="text-neon text-[60%]">{`</h1>`}</span>
             <p></p>
             <span className="text-neon text-[60%]">{`<p>`}</span>
-            <p className={`${ibmPlexMono.className} ml-4 text-sm sm:text-base leading-relaxed`}>
+            <p
+              className={`${ibmPlexMono.className} ml-4 text-sm sm:text-base leading-relaxed`}
+            >
               Creando experiencias funcionales y elegantes para empresas y
-              profesionales
+              profesionales.
             </p>
             <span className=" text-neon text-[60%]">{`</p>`}</span>
             <Link
